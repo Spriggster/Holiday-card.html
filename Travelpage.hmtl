@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Travel webpage</title>
+    </head>
+    <body> <style>
+        #cons{ background-color:rgb(242, 5, 5);}
+        #pros{ background-color:rgb(9, 228, 240);}
+        body { background-color:rgb(5, 250, 54);}   body { color:rgb(255, 255, 255);}
+    </style>
+
+    
+        <h1>You gotta visit Hawaii!</h1>
+        <img src="https://www.kasandbox.org/programming-images/landscapes/beach-in-hawaii.png" width="450">
+    
+       <h2>Why you say?</h2> 
+       
+      <p id="pros">Well because of the food!<br>Everyone likes food, and its expensive!<br> The animals are great, just look at the exotic lorakeets! </p>
+      <ul>
+          <li>Great food
+          <li> Cool animals
+          <li> Diffrent culture
+          
+      </ul>
+      <img src="https://www.kasandbox.org/programming-images/animals/birds_rainbow-lorakeets.png" width="300">
+        <h3>The Cons of going
+        </h3>
+        <p id="cons">Its expensive to go in general, and you have to know how to speak their langauge.<br>Try to book on inexpensive  or find the best deals on flights such as Expedia or trivigo, stay away fron the sharks aswell.  </p> <ul>
+            <li>Expensive
+            <li>Somewhat dangerous
+            <li>New language you have to learn to communicate
+            
+        </ul> 
+        <img src="https://www.kasandbox.org/programming-images/animals/shark.png" width="350">
+    
+        
+    </body>
+</html>
