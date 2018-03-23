@@ -1,0 +1,23 @@
+var xPos = 200;
+var yPos = 200;
+var hi = 10;
+var low = 5;
+var xPos2 = 150;
+var yPos2 = 100;
+draw = function() {
+    background(29, 40, 115);
+    fill(255, 242, 0);
+    ellipse(xPos, yPos, hi, hi);
+    ellipse(xPos2, 1, low, hi);
+    fill(150, 2, 2);
+     ellipse(xPos, yPos, low, low);  
+    //This is what I wanted to do   
+    
+        yPos += 2;
+        xPos += 2;
+        hi += 2;
+        low += 2;
+        xPos2 ++;
+        yPos2 ++;
+
+};
